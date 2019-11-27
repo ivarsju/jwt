@@ -80,9 +80,9 @@ final class Parser implements ParserInterface
             throw new InvalidArgumentException('Encryption is not supported yet');
         }
 
-        if (! isset($header['typ'])) {
-            throw new InvalidArgumentException('The header "typ" must be present');
-        }
+        //if (! isset($header['typ'])) {
+        //    throw new InvalidArgumentException('The header "typ" must be present');
+        //}
 
         return $header;
     }
